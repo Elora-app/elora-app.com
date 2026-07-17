@@ -2,277 +2,634 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>100 Healing Quotes for When You Need to Feel Less Alone ✦ Elora</title>
-<meta name="description" content="100 beautiful healing quotes for anxiety, grief, loneliness and moving forward. For the hard days when you need to feel less alone. By Elora — a journaling app for women.">
-<meta name="keywords" content="healing quotes, anxiety relief quotes, quotes about healing, self love quotes, mental health quotes, quotes for hard times, healing journey quotes, journaling quotes">
-<link rel="canonical" href="https://elora-app.com/healing-quotes.html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elora — Your Safe Space</title>
+<meta name="description" content="Elora is a private journaling and wellness app. Write freely, track your mood, reflect daily — without judgment.">
+<meta property="og:title" content="Elora — Your Safe Space">
+<meta property="og:description" content="A journal that actually feels like one. Coming to the App Store.">
+<meta property="og:url" content="https://elora-app.com">
 <link rel="icon" href="1024×1024px.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-  :root{--dark:#1A1228;--dark2:#22183A;--dark3:#2E2050;--accent:#9B8DC7;--accent2:#C9C0E8;--cream:#FAF8F5;--muted:rgba(201,192,232,0.5);}
-  *{margin:0;padding:0;box-sizing:border-box;}
-  body{font-family:'DM Sans',sans-serif;background:var(--dark);color:var(--cream);overflow-x:hidden;line-height:1.6;}
-  a{text-decoration:none;color:inherit;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --dark:#1A1228;
+  --dark2:#22183A;
+  --dark3:#2E2050;
+  --accent:#9B8DC7;
+  --accent2:#C9C0E8;
+  --cream:#FAF8F5;
+  --muted:#7A6E96;
+}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--dark);color:var(--cream);overflow-x:hidden;}
 
-  nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:20px 80px;display:flex;justify-content:space-between;align-items:center;background:rgba(26,18,40,0.95);backdrop-filter:blur(12px);border-bottom:0.5px solid rgba(201,192,232,0.08);}
-  .nav-logo{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;color:var(--cream);display:flex;flex-direction:column;line-height:1.1;}
-  .nav-logo span{font-size:11px;color:var(--accent2);margin-left:14px;font-style:italic;}
-  .nav-cta{background:var(--accent);color:white;padding:9px 22px;border-radius:24px;font-size:13px;font-weight:500;}
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:0 40px;height:68px;display:flex;align-items:center;justify-content:space-between;background:rgba(26,18,40,0.85);backdrop-filter:blur(12px);border-bottom:0.5px solid rgba(201,192,232,0.1);}
+.nav-logo{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;color:var(--cream);text-decoration:none;display:flex;flex-direction:column;line-height:1.1;}
+.nav-logo span{font-size:11px;color:var(--accent2);margin-left:14px;font-style:italic;}
+.nav-links{display:flex;align-items:center;gap:32px;}
+.nav-links a{font-size:13px;color:rgba(255,255,255,0.55);text-decoration:none;transition:color 0.2s;}
+.nav-links a:hover{color:var(--cream);}
+.nav-cta{background:var(--accent);color:white;padding:9px 22px;border-radius:24px;font-size:13px;font-weight:500;text-decoration:none;transition:opacity 0.2s;}
+.nav-cta:hover{opacity:0.85;}
 
-  .hero{padding:140px 80px 80px;text-align:center;background:radial-gradient(ellipse at 50% 30%,#2E1B5A 0%,var(--dark) 60%);}
-  .eyebrow{font-size:10px;letter-spacing:3px;color:var(--accent);margin-bottom:16px;}
-  h1{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,4vw,58px);font-weight:300;line-height:1.1;margin-bottom:20px;}
-  h1 em{font-style:italic;color:var(--accent2);}
-  .hero p{font-size:15px;color:var(--muted);max-width:560px;margin:0 auto 40px;}
+/* HERO */
+.hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:100px 80px 80px;gap:60px;background:radial-gradient(ellipse at 30% 50%,#2E1B5A 0%,var(--dark) 60%);}
+.hero-text{}
+.hero-eyebrow{font-size:11px;letter-spacing:3px;color:var(--accent);margin-bottom:20px;display:flex;align-items:center;gap:8px;}
+.hero-eyebrow::before{content:'✦';font-size:10px;}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(48px,5.5vw,76px);font-weight:300;line-height:1.05;margin-bottom:20px;}
+.hero h1 em{font-style:italic;color:var(--accent2);}
+.hero-sub{font-size:15px;color:rgba(255,255,255,0.5);line-height:1.8;max-width:420px;margin-bottom:36px;}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap;}
+.btn-primary{background:var(--accent);color:white;padding:13px 28px;border-radius:28px;font-size:14px;font-weight:500;text-decoration:none;transition:opacity 0.2s;}
+.btn-primary:hover{opacity:0.85;}
+.btn-secondary{background:transparent;color:var(--cream);padding:13px 28px;border-radius:28px;font-size:14px;border:0.5px solid rgba(201,192,232,0.3);text-decoration:none;transition:border-color 0.2s;}
+.btn-secondary:hover{border-color:var(--accent);}
+.hero-badges{display:flex;gap:24px;margin-top:40px;flex-wrap:wrap;}
+.badge{display:flex;align-items:flex-start;gap:10px;}
+.badge-icon{color:var(--accent);font-size:14px;margin-top:2px;}
+.badge-text strong{display:block;font-size:12px;font-weight:500;color:var(--cream);margin-bottom:2px;}
+.badge-text span{font-size:11px;color:rgba(255,255,255,0.35);line-height:1.4;}
 
-  .content{max-width:800px;margin:0 auto;padding:60px 80px;}
+/* Phone mockup */
+.hero-visual{display:flex;justify-content:center;align-items:center;position:relative;}
+.phone-wrap{position:relative;width:260px;}
+.phone{width:260px;height:520px;background:var(--dark2);border-radius:40px;border:1.5px solid rgba(201,192,232,0.2);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
+.phone::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,rgba(155,141,199,0.15),transparent 70%);}
+.phone-inner{text-align:center;position:relative;z-index:1;padding:24px;}
+.phone-inner .p-logo{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:32px;color:var(--cream);margin-bottom:6px;}
+.phone-inner .p-by{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:13px;color:var(--accent2);margin-left:28px;text-align:left;}
+.phone-inner .p-soon{font-size:10px;letter-spacing:2px;color:var(--muted);margin-top:28px;text-align:center;}
+.phone-inner .p-divider{width:40px;height:0.5px;background:rgba(201,192,232,0.3);margin:16px auto;}
+.phone-inner .p-features{display:flex;flex-direction:column;gap:10px;margin-top:8px;}
+.phone-inner .p-feat{font-size:11px;color:rgba(255,255,255,0.35);display:flex;align-items:center;gap:6px;}
+.phone-inner .p-feat::before{content:'✦';color:var(--accent);font-size:8px;}
+.phone2{position:absolute;right:-80px;top:60px;width:200px;height:400px;background:var(--dark3);border-radius:32px;border:1px solid rgba(201,192,232,0.15);display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.phone2::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(155,141,199,0.1),transparent);}
+.phone2 span{font-size:10px;letter-spacing:1px;color:rgba(255,255,255,0.2);position:relative;z-index:1;}
 
-  .category{margin-bottom:60px;}
-  .category-title{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:28px;color:var(--accent2);margin-bottom:8px;}
-  .category-sub{font-size:11px;color:var(--muted);letter-spacing:2px;margin-bottom:32px;}
+/* DIVIDER */
+.marquee-bar{background:rgba(255,255,255,0.04);border-top:0.5px solid rgba(201,192,232,0.08);border-bottom:0.5px solid rgba(201,192,232,0.08);padding:14px 0;overflow:hidden;white-space:nowrap;}
+.marquee-inner{display:inline-flex;gap:48px;animation:marquee 20s linear infinite;}
+.marquee-inner span{font-size:12px;letter-spacing:2px;color:var(--muted);}
+.marquee-inner .dot{color:var(--accent);}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
-  .quote-grid{display:flex;flex-direction:column;gap:20px;}
-  .quote-card{background:rgba(255,255,255,0.03);border:0.5px solid rgba(201,192,232,0.1);border-radius:16px;padding:24px 28px;}
-  .quote-text{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:18px;color:var(--cream);line-height:1.7;margin-bottom:8px;}
-  .quote-mark{font-size:10px;color:var(--accent);letter-spacing:1.5px;}
+/* FEATURES */
+#features{padding:100px 80px;background:var(--dark);}
+.section-label{font-size:11px;letter-spacing:3px;color:var(--accent);margin-bottom:16px;}
+.section-title{font-family:'Cormorant Garamond',serif;font-size:clamp(32px,4vw,52px);font-weight:300;line-height:1.1;margin-bottom:60px;max-width:520px;}
+.section-title em{font-style:italic;color:var(--accent2);}
+.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(201,192,232,0.08);border-radius:20px;overflow:hidden;}
+.feat-card{background:var(--dark);padding:36px 32px;transition:background 0.3s;}
+.feat-card:hover{background:rgba(155,141,199,0.06);}
+.feat-icon{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:24px;color:var(--accent);margin-bottom:14px;}
+.feat-card h3{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:20px;font-weight:400;color:var(--cream);margin-bottom:8px;}
+.feat-card p{font-size:13px;color:rgba(255,255,255,0.4);line-height:1.7;}
 
-  .cta-section{text-align:center;padding:80px;background:linear-gradient(135deg,#1E1240,#2E2050);margin:40px 0;}
-  .cta-section h2{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:36px;margin-bottom:16px;}
-  .cta-section p{color:var(--muted);margin-bottom:32px;font-size:15px;}
-  .btn{background:var(--accent);color:white;padding:13px 32px;border-radius:28px;font-size:14px;font-weight:500;display:inline-block;}
+/* PRODUCTS */
+#products{padding:100px 80px;background:linear-gradient(180deg,var(--dark),var(--dark2));}
+.products-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:48px;flex-wrap:wrap;gap:16px;}
+.products-header .section-title{margin-bottom:0;}
+.products-sub{font-size:13px;color:var(--muted);max-width:320px;text-align:right;line-height:1.7;}
+.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;}
+.product-card{background:rgba(255,255,255,0.04);border:0.5px solid rgba(201,192,232,0.12);border-radius:20px;overflow:hidden;transition:transform 0.3s,border-color 0.3s;}
+.product-card:hover{transform:translateY(-4px);border-color:rgba(201,192,232,0.25);}
+.product-cover{height:280px;background:var(--dark3);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
+.product-cover img{width:100%;height:100%;object-fit:contain;padding:8px;}
+.product-cover .coming-overlay{position:absolute;inset:0;background:rgba(26,18,40,0.5);display:flex;align-items:flex-end;justify-content:flex-start;padding:12px;}
+.coming-badge{font-size:9px;letter-spacing:1.5px;color:rgba(255,255,255,0.6);background:rgba(0,0,0,0.4);padding:4px 8px;border-radius:6px;backdrop-filter:blur(4px);}
+.product-body{padding:16px;}
+.prod-badge{display:inline-block;font-size:8px;font-weight:600;letter-spacing:1px;padding:3px 8px;border-radius:6px;margin-bottom:8px;}
+.badge-free{background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.5);}
+.badge-excl{background:rgba(155,141,199,0.2);color:var(--accent2);}
+.product-title{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:var(--cream);margin-bottom:4px;line-height:1.3;}
+.product-meta{font-size:10px;color:var(--muted);margin-bottom:12px;}
+.product-btn{display:block;text-align:center;padding:8px;border-radius:16px;font-size:11px;font-weight:500;text-decoration:none;border:0.5px solid rgba(201,192,232,0.2);color:var(--accent2);transition:background 0.2s;}
+.product-btn:hover{background:rgba(155,141,199,0.1);}
 
-  footer{padding:40px 80px;display:flex;justify-content:space-between;align-items:center;border-top:0.5px solid rgba(201,192,232,0.08);flex-wrap:wrap;gap:20px;}
-  footer p{font-size:11px;color:rgba(255,255,255,0.2);}
+/* PREMIUM */
+#premium{padding:100px 80px;background:var(--dark2);}
+.premium-inner{max-width:800px;margin:0 auto;text-align:center;}
+.premium-inner .section-title{max-width:100%;}
+.premium-features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:48px 0;}
+.prem-feat{background:rgba(255,255,255,0.04);border:0.5px solid rgba(201,192,232,0.1);border-radius:16px;padding:24px 20px;text-align:left;}
+.prem-feat .pf-icon{color:var(--accent);font-size:14px;margin-bottom:8px;}
+.prem-feat h4{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:var(--cream);margin-bottom:4px;}
+.prem-feat p{font-size:11px;color:rgba(255,255,255,0.35);line-height:1.6;}
+.premium-pricing{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;}
+.price-card{background:rgba(255,255,255,0.04);border:0.5px solid rgba(201,192,232,0.15);border-radius:20px;padding:28px 32px;min-width:200px;text-align:center;position:relative;}
+.price-card.featured{border-color:var(--accent);}
+.price-badge{position:absolute;top:-10px;left:50%;transform:translateX(-50%);background:var(--accent);color:white;font-size:9px;letter-spacing:1px;padding:3px 12px;border-radius:10px;white-space:nowrap;}
+.price-label{font-size:11px;color:var(--muted);margin-bottom:8px;letter-spacing:1px;}
+.price-amount{font-family:'Cormorant Garamond',serif;font-size:36px;font-style:italic;color:var(--cream);}
+.price-sub{font-size:11px;color:var(--muted);margin-top:4px;}
+.price-btn{display:block;margin-top:20px;background:var(--accent);color:white;padding:10px 20px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;}
 
-  @media(max-width:768px){
-    nav{padding:16px 24px;}
-    .hero{padding:120px 24px 60px;}
-    .content{padding:40px 24px;}
-    .cta-section{padding:60px 24px;}
-    footer{padding:30px 24px;}
-  }
+/* CTA */
+.cta-section{padding:120px 80px;text-align:center;background:var(--dark);position:relative;overflow:hidden;}
+.cta-section::before{content:'✦';position:absolute;font-size:400px;opacity:0.015;top:50%;left:50%;transform:translate(-50%,-50%);font-family:serif;color:white;pointer-events:none;}
+.cta-section h2{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,5vw,64px);font-style:italic;font-weight:300;color:var(--cream);margin-bottom:16px;position:relative;}
+.cta-section p{font-size:15px;color:var(--muted);margin-bottom:36px;position:relative;}
+.cta-section .btn-primary{position:relative;}
+
+/* FOOTER */
+footer{background:var(--dark2);border-top:0.5px solid rgba(201,192,232,0.08);padding:40px 80px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;}
+.footer-logo{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--cream);}
+.footer-logo span{display:block;font-size:11px;color:var(--accent2);margin-left:14px;}
+footer nav{display:flex;gap:24px;flex-wrap:wrap;}
+footer nav a{font-size:12px;color:var(--muted);text-decoration:none;transition:color 0.2s;}
+footer nav a:hover{color:var(--cream);}
+footer p{font-size:11px;color:rgba(255,255,255,0.2);}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  nav{padding:0 24px;}
+  .nav-links{display:none;}
+  .hero{grid-template-columns:1fr;padding:100px 24px 60px;text-align:center;}
+  .hero-sub{max-width:100%;}
+  .hero-btns{justify-content:center;}
+  .hero-badges{justify-content:center;}
+  .hero-visual{margin-top:40px;}
+  .phone2{display:none;}
+  #features,#products,#premium,.cta-section,footer{padding-left:24px;padding-right:24px;}
+  .features-grid{grid-template-columns:1fr;}
+  .premium-features{grid-template-columns:1fr 1fr;}
+  .products-header{flex-direction:column;}
+  .products-sub{text-align:left;}
+}
 </style>
 </head>
 <body>
 
+<!-- NAV -->
 <nav>
-  <a href="index.html" class="nav-logo">Elora <span>by Rym</span></a>
-  <div style="display:flex;gap:24px;align-items:center;">
-    <a href="index.html" style="font-size:13px;color:rgba(255,255,255,0.55);">Home</a>
-    <a href="mailto:support@elora-app.com" style="font-size:13px;color:rgba(255,255,255,0.55);">Contact</a>
-    <a href="privacy.html" style="font-size:13px;color:rgba(255,255,255,0.55);">Privacy</a>
-    <a href="index.html#waitlist" class="nav-cta">Get Elora ✦</a>
+  <a href="#" class="nav-logo">Elora <span>by Rym</span></a>
+  <div class="nav-links">
+    <a href="#features">Features</a>
+    <a href="#premium">Premium</a>
+    <a href="#products">Digital Products</a>
+    <a href="for-you.html" style="color:var(--accent2);">For You ✦</a>
+    <a href="mailto:support@elora-app.com">Contact</a>
+    <a href="privacy.html">Privacy</a>
   </div>
+  <a href="#" class="nav-cta">Get Elora ✦</a>
 </nav>
 
-<div class="hero">
-  <p class="eyebrow">✦ ELORA COLLECTION</p>
-  <h1>100 Healing Quotes<br><em>for when you need to feel less alone.</em></h1>
-  <p>For the hard days, the heavy nights, and every moment in between. Save the ones that speak to you.</p>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <div class="hero-eyebrow">A space for you</div>
+    <h1>Your journal.<br><em>Your safe space.</em></h1>
+    <p class="hero-sub">Elora is a private, beautiful journaling and wellness app designed for people who want to write freely, understand their emotions, and grow — without judgment.</p>
+    <div class="hero-btns">
+      <a href="#" class="btn-primary">Coming to App Store ✦</a>
+      <p style="font-size:12px;color:rgba(255,255,255,0.3);margin-top:14px;font-style:italic;font-family:'Cormorant Garamond',serif;">Built for iPhone · Best experienced on iPad & Mac</p>
+      <a href="#features" class="btn-secondary">Learn more</a>
+    </div>
+    <div class="hero-badges">
+      <div class="badge">
+        <div class="badge-icon">✦</div>
+        <div class="badge-text">
+          <strong>Private & secure</strong>
+          <span>Your thoughts stay only with you.</span>
+        </div>
+      </div>
+      <div class="badge">
+        <div class="badge-icon">✦</div>
+        <div class="badge-text">
+          <strong>No ads, ever</strong>
+          <span>We never sell your data.</span>
+        </div>
+      </div>
+      <div class="badge">
+        <div class="badge-icon">✦</div>
+        <div class="badge-text">
+          <strong>Built with care</strong>
+          <span>For people who feel deeply.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="phone-inner">
+          <div class="p-logo">Elora</div>
+          <div class="p-by">by Rym</div>
+          <div class="p-divider"></div>
+          <div class="p-features">
+            <div class="p-feat">Journal & reflect daily</div>
+            <div class="p-feat">Track your mood</div>
+            <div class="p-feat">Original music</div>
+            <div class="p-feat">Letters to future you</div>
+            <div class="p-feat">12 beautiful themes</div>
+          </div>
+          <div class="p-soon">APP STORE SOON</div>
+        </div>
+      </div>
+      <div class="phone2">
+        <span>COMING SOON</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-bar">
+  <div class="marquee-inner">
+    <span>JOURNAL</span><span class="dot">✦</span>
+    <span>MOOD TRACKING</span><span class="dot">✦</span>
+    <span>DAILY REFLECTION</span><span class="dot">✦</span>
+    <span>ORIGINAL MUSIC</span><span class="dot">✦</span>
+    <span>LETTERS TO FUTURE YOU</span><span class="dot">✦</span>
+    <span>12 THEMES</span><span class="dot">✦</span>
+    <span>PRIVATE & SECURE</span><span class="dot">✦</span>
+    <span>JOURNAL</span><span class="dot">✦</span>
+    <span>MOOD TRACKING</span><span class="dot">✦</span>
+    <span>DAILY REFLECTION</span><span class="dot">✦</span>
+    <span>ORIGINAL MUSIC</span><span class="dot">✦</span>
+    <span>LETTERS TO FUTURE YOU</span><span class="dot">✦</span>
+    <span>12 THEMES</span><span class="dot">✦</span>
+    <span>PRIVATE & SECURE</span><span class="dot">✦</span>
+  </div>
 </div>
 
-<div class="content">
-
-  <!-- CATEGORY 1 -->
-  <div class="category">
-    <div class="category-title">On Healing</div>
-    <div class="category-sub">FOR THE JOURNEY THAT HAS NO TIMELINE</div>
-    <div class="quote-grid">
-      <div class="quote-card"><div class="quote-text">"Healing isn't linear. Some days you go backwards and that still counts."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are allowed to heal at your own pace. There is no deadline on becoming whole."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"She didn't just survive it. She grew from it."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The wound is the place where the light enters you."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You don't have to be fully healed to be worthy of love, rest, and peace."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Healing is not forgetting. It's learning to carry it differently."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Some seasons are for healing. That is enough. That is everything."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are not behind in your healing. You are exactly where you need to be."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Rest is not giving up. It's getting ready."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The fact that you're still here, still trying — that is not small. That is everything."</div><div class="quote-mark">✦ ELORA</div></div>
+<!-- FEATURES -->
+<section id="features">
+  <div class="section-label">WHAT ELORA OFFERS</div>
+  <h2 class="section-title">Everything your journal<br><em>should be.</em></h2>
+  <div class="features-grid">
+    <div class="feat-card">
+      <div class="feat-icon">✦</div>
+      <h3>Journal freely</h3>
+      <p>Write with beautiful themes, photos, and voice notes. Protected by a PIN only you know.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">✦</div>
+      <h3>Track your mood</h3>
+      <p>Log how you feel each day. Elora reveals your patterns and reflects them back in its own gentle voice.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">✦</div>
+      <h3>Reflect daily</h3>
+      <p>A new question every single day — written to make you think. Watch how your answers change over months.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">✦</div>
+      <h3>Original music</h3>
+      <p>Music created by Elora to set the mood while you write. Something to put on when you need to slow down.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">✦</div>
+      <h3>Letters to future you</h3>
+      <p>Write something today. Elora delivers it back to you in 1 month, 3 months, 6 months, or a year.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">✦</div>
+      <h3>Always private</h3>
+      <p>No ads. No data selling. No judgment. Just you and your thoughts, protected by a PIN only you know.</p>
     </div>
   </div>
+</section>
 
-  <!-- CATEGORY 2 -->
-  <div class="category">
-    <div class="category-title">On Anxiety & Overthinking</div>
-    <div class="category-sub">FOR THE MIND THAT WON'T STOP</div>
-    <div class="quote-grid">
-      <div class="quote-card"><div class="quote-text">"The overthinking isn't weakness. It's a mind that cares too much about getting it right."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You're not too much. Your mind is just tired."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Not every thought deserves your attention."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You don't have to solve everything tonight. Some things can wait until morning."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Your brain is trying to protect you. It's doing its best. Now let's help it do less."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Not every fear is asking for your attention right now."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You can't think your way to peace. Sometimes you have to feel your way there."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The worry isn't you. It's just noise. You are the one listening."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"One breath. One moment. One step. That's all you need right now."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You've survived every hard day so far. That's a perfect record."</div><div class="quote-mark">✦ ELORA</div></div>
+<!-- DIGITAL PRODUCTS -->
+<section id="products">
+  <div class="products-header">
+    <div>
+      <div class="section-label">DIGITAL LIBRARY</div>
+      <h2 class="section-title">Workbooks &<br><em>planners.</em></h2>
+    </div>
+    <p class="products-sub">Guided tools for your healing journey. Available in the app and here — free and exclusive editions.</p>
+  </div>
+  <div class="products-grid">
+
+    <div class="product-card">
+      <div class="product-cover" style="background:#2A1F3D;">
+        <img src="becoming-her.png" alt="Becoming Her Workbook" onerror="this.style.display='none'">
+        <div class="coming-overlay"><span class="coming-badge">COMING SOON</span></div>
+      </div>
+      <div class="product-body">
+        <span class="prod-badge badge-excl">EXCLUSIVE</span>
+        <div class="product-title">Becoming Her Workbook</div>
+        <div class="product-meta">28 pages · $9.99</div>
+        <a href="#" class="product-btn">Coming soon</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-cover" style="background:#0A0A1A;">
+        <img src="midnight-reset.png" alt="Midnight Reset" onerror="this.style.display='none'">
+        <div class="coming-overlay"><span class="coming-badge">COMING SOON</span></div>
+      </div>
+      <div class="product-body">
+        <span class="prod-badge badge-excl">EXCLUSIVE</span>
+        <div class="product-title">Midnight Reset</div>
+        <div class="product-meta">5 pages · $4.99</div>
+        <a href="#" class="product-btn">Coming soon</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-cover" style="background:#0A0A1A;">
+        <img src="overthinking.png" alt="Overthinking Workbook" onerror="this.style.display='none'">
+        <div class="coming-overlay"><span class="coming-badge">COMING SOON</span></div>
+      </div>
+      <div class="product-body">
+        <span class="prod-badge badge-excl">EXCLUSIVE</span>
+        <div class="product-title">Overthinking Workbook</div>
+        <div class="product-meta">19 pages · $7.99</div>
+        <a href="#" class="product-btn">Coming soon</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-cover" style="background:#2A1A10;">
+        <img src="glow-up.png" alt="Glow-Up Planner" onerror="this.style.display='none'">
+        <div class="coming-overlay"><span class="coming-badge">COMING SOON</span></div>
+      </div>
+      <div class="product-body">
+        <span class="prod-badge badge-excl">EXCLUSIVE</span>
+        <div class="product-title">Glow-Up Planner</div>
+        <div class="product-meta">19 pages · $9.99</div>
+        <a href="#" class="product-btn">Coming soon</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-cover" style="background:#0D1A0D;">
+        <img src="student-planner.png" alt="Student Planner" onerror="this.style.display='none'">
+        <div class="coming-overlay"><span class="coming-badge">COMING SOON</span></div>
+      </div>
+      <div class="product-body">
+        <span class="prod-badge badge-excl">EXCLUSIVE</span>
+        <div class="product-title">Student Planner</div>
+        <div class="product-meta">Digital planner · $9.99</div>
+        <a href="#" class="product-btn">Coming soon</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-cover" style="background:#1A1008;">
+        <img src="on-my-own.png" alt="On My Own" onerror="this.style.display='none'">
+        <div class="coming-overlay"><span class="coming-badge">COMING SOON</span></div>
+      </div>
+      <div class="product-body">
+        <span class="prod-badge badge-excl">EXCLUSIVE</span>
+        <div class="product-title">On My Own</div>
+        <div class="product-meta">10 pages · $9.99</div>
+        <a href="#" class="product-btn">Coming soon</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-cover" style="background:#0A1A1A;">
+        <img src="healing-workbook.png" alt="Healing Workbook" onerror="this.style.display='none'">
+        <div class="coming-overlay"><span class="coming-badge">COMING SOON</span></div>
+      </div>
+      <div class="product-body">
+        <span class="prod-badge badge-excl">EXCLUSIVE</span>
+        <div class="product-title">Healing Workbook</div>
+        <div class="product-meta">12 pages · $9.99</div>
+        <a href="#" class="product-btn">Coming soon</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-cover" style="background:#1A1A0A;">
+        <img src="burnout.png" alt="Burnout Recovery Workbook" onerror="this.style.display='none'">
+        <div class="coming-overlay"><span class="coming-badge">COMING SOON</span></div>
+      </div>
+      <div class="product-body">
+        <span class="prod-badge badge-excl">EXCLUSIVE</span>
+        <div class="product-title">Burnout Recovery Workbook</div>
+        <div class="product-meta">11 pages · $9.99</div>
+        <a href="#" class="product-btn">Coming soon</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-cover" style="background:#1A0A0A;">
+        <img src="relationship.png" alt="Relationship Workbook" onerror="this.style.display='none'">
+        <div class="coming-overlay"><span class="coming-badge">COMING SOON</span></div>
+      </div>
+      <div class="product-body">
+        <span class="prod-badge badge-excl">EXCLUSIVE</span>
+        <div class="product-title">Relationship Workbook</div>
+        <div class="product-meta">11 pages · $9.99</div>
+        <a href="#" class="product-btn">Coming soon</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-cover" style="background:#2C1F3D;">
+        <img src="how-to-forget.png" alt="How to Forget" onerror="this.style.display='none'">
+        <div class="coming-overlay"><span class="coming-badge">COMING SOON</span></div>
+      </div>
+      <div class="product-body">
+        <span class="prod-badge badge-excl">EXCLUSIVE</span>
+        <div class="product-title">How to Forget</div>
+        <div class="product-meta">13 pages · $9.99</div>
+        <a href="#" class="product-btn">Coming soon</a>
+      </div>
+    </div>
+
+    <div class="product-card" style="grid-column: 1 / -1;">
+      <div style="position:relative;overflow:hidden;border-radius:16px 16px 0 0;">
+        <img src="bundle.png" alt="The Complete Elora Library" style="width:100%;display:block;">
+        <div style="position:absolute;top:12px;left:12px;">
+          <span class="coming-badge">COMING SOON</span>
+        </div>
+      </div>
+      <div class="product-body">
+        <span class="prod-badge" style="background:#3D2C6E;color:white;">BUNDLE</span>
+        <div class="product-title">The Complete Elora Library</div>
+        <div class="product-meta">All 10 workbooks · $49.99 · Save over 45%</div>
+        <a href="#" class="product-btn">Coming soon</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PREMIUM -->
+<section id="premium">
+  <div class="premium-inner">
+    <div class="section-label">ELORA PREMIUM</div>
+    <h2 class="section-title">Your full journey,<br><em>unlocked.</em></h2>
+    <div class="premium-features">
+      <div class="prem-feat"><div class="pf-icon">✦</div><h4>8 themes + every new one added</h4><p>All current and future premium themes, forever.</p></div>
+      <div class="prem-feat"><div class="pf-icon">✦</div><h4>6 animated themes</h4><p>Stars, petals, aurora, bubbles and more.</p></div>
+      <div class="prem-feat"><div class="pf-icon">✦</div><h4>Exclusive avatars</h4><p>Premium profile photos curated for Elora.</p></div>
+      <div class="prem-feat"><div class="pf-icon">✦</div><h4>Full mood insights</h4><p>Patterns, score ring, calendar & yearly trends.</p></div>
+      <div class="prem-feat"><div class="pf-icon">✦</div><h4>Elora Music</h4><p>Full access to all 3 original tracks.</p></div>
+      <div class="prem-feat"><div class="pf-icon">✦</div><h4>Exclusive journal prompts</h4><p>6 categories of guided prompts for deeper reflection.</p></div>
+      <div class="prem-feat"><div class="pf-icon">✦</div><h4>Premium fonts & colors</h4><p>Personalize your journal with exclusive typography and color palettes.</p></div>
+    </div>
+    <div class="premium-pricing">
+      <div class="price-card featured">
+        <div class="price-badge">BEST VALUE</div>
+        <div class="price-label">3-MONTH BUNDLE</div>
+        <div class="price-amount">$19.99</div>
+        <div class="price-sub">Save over 15%</div>
+        <a href="#" class="price-btn">Get Premium ✦</a>
+      </div>
+      <div class="price-card">
+        <div class="price-label">MONTHLY</div>
+        <div class="price-amount">$7.99</div>
+        <div class="price-sub">per month</div>
+        <a href="#" class="price-btn">Get Premium ✦</a>
+      </div>
     </div>
   </div>
+</section>
 
-  <!-- CATEGORY 3 -->
-  <div class="category">
-    <div class="category-title">On Loneliness</div>
-    <div class="category-sub">FOR THE ONES WHO FEEL ALONE</div>
-    <div class="quote-grid">
-      <div class="quote-card"><div class="quote-text">"She was never too much. She was just in the wrong rooms."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Being selective is not the same as being unwanted."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Your own company is valid company."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The right people are coming. You just haven't met them yet."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"This season of solitude is building something in you that crowds never could."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are whole on your own. Connection will add to you, not complete you."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"She became her own safe place. And that changed everything."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Loneliness is not a life sentence. It's a season."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"She didn't fall apart. She just got very quiet for a while."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are not behind because you're on your own path. You are exactly where you need to be."</div><div class="quote-mark">✦ ELORA</div></div>
+<!-- CTA -->
+<section class="cta-section">
+  <h2>Your safe space is almost ready.</h2>
+  <p>Be the first to know when Elora launches on the App Store.</p>
+  <form action="https://formspree.io/f/xykqgkyd" method="POST" style="display:flex;flex-direction:column;align-items:center;gap:12px;width:100%;max-width:420px;margin:0 auto;position:relative;z-index:2;">
+    <div style="display:flex;width:100%;gap:10px;flex-wrap:wrap;justify-content:center;">
+      <input
+        type="email"
+        name="email"
+        placeholder="your@email.com"
+        required
+        style="flex:1;min-width:200px;background:rgba(255,255,255,0.06);border:0.5px solid rgba(201,192,232,0.2);border-radius:28px;padding:13px 20px;color:#FAF8F5;font-size:14px;font-family:'DM Sans',sans-serif;outline:none;"
+      />
+      <button
+        type="submit"
+        style="background:#9B8DC7;color:white;border:none;padding:13px 28px;border-radius:28px;font-size:14px;font-weight:500;cursor:pointer;font-family:'DM Sans',sans-serif;white-space:nowrap;"
+      >Notify me ✦</button>
+    </div>
+    <p style="font-size:11px;color:rgba(155,141,199,0.5);margin:0;">No spam. Just one email when Elora launches.</p>
+  </form>
+</section>
+
+<!-- MEET RYM -->
+<section id="about" style="padding:80px 80px;background:linear-gradient(135deg,#1A1228,#2C2438);text-align:center;">
+  <p style="font-size:10px;color:var(--accent2);letter-spacing:2.5px;margin-bottom:16px;">✦ THE FOUNDER</p>
+  <h2 style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:38px;color:var(--cream);margin-bottom:32px;font-weight:300;">Meet Rym</h2>
+  <div style="max-width:620px;margin:0 auto;">
+    <div style="width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#6B5CA5,#3D2C6E);margin:0 auto 28px;display:flex;align-items:center;justify-content:center;">
+      <span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:28px;color:white;">R</span>
+    </div>
+    <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:20px;color:var(--cream);line-height:1.8;margin-bottom:20px;">"I built Elora because I needed it."</p>
+    <p style="font-size:14px;color:rgba(255,255,255,0.6);line-height:1.9;margin-bottom:16px;">I wasn't looking for an AI to tell me how to deal with my feelings. I wasn't looking for productivity tools or habit trackers. I needed a private space — somewhere no one could reach me, somewhere I could disconnect from the noise and actually understand myself.</p>
+    <p style="font-size:14px;color:rgba(255,255,255,0.6);line-height:1.9;margin-bottom:16px;">So I built it. At 15, completely alone, I designed every screen, wrote every quote, and created every workbook. Not because I knew how — but because I needed it to exist.</p>
+    <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:17px;color:var(--accent2);line-height:1.8;">When you open Elora, I want you to feel safe. I want you to feel understood. I want you to feel like you finally have a place that's completely, quietly yours. ✦</p>
+    <p style="font-size:12px;color:rgba(255,255,255,0.3);margin-top:24px;font-style:italic;">— Rym, founder of Elora</p>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" style="padding:80px 80px;background:var(--dark1);text-align:center;">
+  <p style="font-size:10px;color:var(--accent2);letter-spacing:2.5px;margin-bottom:16px;">✦ WHAT PEOPLE SAY</p>
+  <h2 class="section-title" style="margin-bottom:48px;">Early readers<br><em>on Elora.</em></h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;max-width:900px;margin:0 auto;">
+    <div style="background:var(--dark2);border-radius:20px;padding:28px;border:0.5px solid rgba(201,192,232,0.1);text-align:left;">
+      <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:var(--cream);line-height:1.8;margin-bottom:16px;">"It feels like someone built this specifically for me. The quotes, the themes, the way it doesn't judge — it's unlike anything I've used."</p>
+      <p style="font-size:11px;color:var(--muted);">— Early tester, 17</p>
+    </div>
+    <div style="background:var(--dark2);border-radius:20px;padding:28px;border:0.5px solid rgba(201,192,232,0.1);text-align:left;">
+      <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:var(--cream);line-height:1.8;margin-bottom:16px;">"The Moonlight theme alone made me want to journal every night. It's so beautiful I open it just to look at it."</p>
+      <p style="font-size:11px;color:var(--muted);">— Early tester, 21</p>
+    </div>
+    <div style="background:var(--dark2);border-radius:20px;padding:28px;border:0.5px solid rgba(201,192,232,0.1);text-align:left;">
+      <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:var(--cream);line-height:1.8;margin-bottom:16px;">"The workbooks are genuinely therapeutic. 'On My Own' made me cry in the best way. I felt seen for the first time in a long time."</p>
+      <p style="font-size:11px;color:var(--muted);">— Early tester, 19</p>
     </div>
   </div>
+</section>
 
-  <!-- CATEGORY 4 -->
-  <div class="category">
-    <div class="category-title">On Letting Go</div>
-    <div class="category-sub">FOR WHAT YOU'RE READY TO RELEASE</div>
-    <div class="quote-grid">
-      <div class="quote-card"><div class="quote-text">"You don't have to forget. You just have to stop letting it control your life."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Some people aren't meant to stay. They're meant to teach."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Release what hurts. Keep what helped you grow."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"She stopped chasing. She started choosing."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Letting go is not losing. It's making room."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are allowed to outgrow people. You are allowed to outgrow places. You are allowed to outgrow versions of yourself."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The chapter is over. You can put the book down now."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Forgiveness is not for them. It's for you."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Put it down. Just for tonight."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"I'm not starting over. I'm starting better."</div><div class="quote-mark">✦ ELORA</div></div>
+<!-- FAQ -->
+<section id="faq" style="padding:80px 80px;background:var(--dark2);">
+  <p style="font-size:10px;color:var(--accent2);letter-spacing:2.5px;margin-bottom:16px;text-align:center;">✦ QUESTIONS</p>
+  <h2 class="section-title" style="text-align:center;margin-bottom:48px;">Everything you<br><em>want to know.</em></h2>
+  <div style="max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:16px;">
+
+    <div style="background:var(--dark1);border-radius:16px;padding:24px;border:0.5px solid rgba(201,192,232,0.08);">
+      <p style="font-size:13px;font-weight:600;color:var(--cream);margin-bottom:8px;">Is my journal completely private?</p>
+      <p style="font-size:13px;color:var(--muted);line-height:1.7;">Yes. Your journal entries are protected by a PIN that only you know — stored as a one-way hash that even we can't read. Your entries are saved to your personal account and never shared with anyone.</p>
     </div>
-  </div>
 
-  <!-- CATEGORY 5 -->
-  <div class="category">
-    <div class="category-title">On Self Love</div>
-    <div class="category-sub">FOR THE RELATIONSHIP WITH YOURSELF</div>
-    <div class="quote-grid">
-      <div class="quote-card"><div class="quote-text">"You deserve the same kindness you give to everyone else."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Choosing yourself is not selfish. It's survival."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are not behind. You are becoming."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The most important relationship you'll ever have is the one with yourself."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Your body is not a problem to solve. It is a home to return to."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You don't have to earn your rest. You don't have to earn your peace."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"She glowed differently once she started choosing herself."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are enough. And you are growing. Both things are true."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The version of you that made it through last year deserves more credit."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Be gentle with yourself. You are a work in progress and that is something to be proud of."</div><div class="quote-mark">✦ ELORA</div></div>
+    <div style="background:var(--dark1);border-radius:16px;padding:24px;border:0.5px solid rgba(201,192,232,0.08);">
+      <p style="font-size:13px;font-weight:600;color:var(--cream);margin-bottom:8px;">What's included in the free version?</p>
+      <p style="font-size:13px;color:var(--muted);line-height:1.7;">The free version includes unlimited journal entries, daily mood logging, 4 beautiful themes, daily reflections, 100 Elora moments, letters to your future self, and a 10-day trial of Premium mood insights.</p>
     </div>
-  </div>
 
-  <!-- CATEGORY 6 -->
-  <div class="category">
-    <div class="category-title">On Hard Days</div>
-    <div class="category-sub">FOR WHEN EVERYTHING FEELS LIKE TOO MUCH</div>
-    <div class="quote-grid">
-      <div class="quote-card"><div class="quote-text">"Bad days are not signs that you're failing. They're signs that you're human."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You don't have to be okay right now. You just have to still be here."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"One difficult day cannot destroy everything you've built."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Don't let a bad day convince you that you have a bad life."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Tomorrow can begin again. And so can you."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The strongest people aren't the ones who never struggle. They're the ones who continue anyway."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Be gentle with yourself tonight. You've carried a lot today."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are allowed to have bad days. Just don't unpack and live there."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Rest now. The world will still be here when you're ready."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are doing better than you think. I promise."</div><div class="quote-mark">✦ ELORA</div></div>
+    <div style="background:var(--dark1);border-radius:16px;padding:24px;border:0.5px solid rgba(201,192,232,0.08);">
+      <p style="font-size:13px;font-weight:600;color:var(--cream);margin-bottom:8px;">What does Premium unlock?</p>
+      <p style="font-size:13px;color:var(--muted);line-height:1.7;">Premium unlocks all 12 themes including animated Moonlight, Starlit and Aurora, background music, advanced mood analytics and patterns, exclusive journal prompts, and everything we add in the future.</p>
     </div>
-  </div>
 
-  <!-- CATEGORY 7 -->
-  <div class="category">
-    <div class="category-title">On Growth & Becoming</div>
-    <div class="category-sub">FOR THE WOMAN YOU ARE BECOMING</div>
-    <div class="quote-grid">
-      <div class="quote-card"><div class="quote-text">"She's not who she used to be. And she's not who she's going to be. But she's becoming everything."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You're not behind. You're just on a path that doesn't look like anyone else's."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Growth is quiet. It doesn't announce itself. One day you'll just notice you've changed."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The life you want is worth showing up for."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are creating a life you love. And the best part? You get to decide everything."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Small habits. Quiet mornings. Consistent effort. That's how she did it."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Your future self is watching you right now. Make her proud."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"It's not about being perfect. It's about becoming."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The glow is already in you. You just have to keep showing up for it."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"She was never incomplete. She was just becoming."</div><div class="quote-mark">✦ ELORA</div></div>
+    <div style="background:var(--dark1);border-radius:16px;padding:24px;border:0.5px solid rgba(201,192,232,0.08);">
+      <p style="font-size:13px;font-weight:600;color:var(--cream);margin-bottom:8px;">When does Elora launch?</p>
+      <p style="font-size:13px;color:var(--muted);line-height:1.7;">Elora is coming to the App Store very soon. Sign up for the waitlist above and you'll be the first to know the moment it's live.</p>
     </div>
-  </div>
 
-  <!-- CATEGORY 8 -->
-  <div class="category">
-    <div class="category-title">On Burnout & Rest</div>
-    <div class="category-sub">FOR WHEN YOU'VE GIVEN TOO MUCH FOR TOO LONG</div>
-    <div class="quote-grid">
-      <div class="quote-card"><div class="quote-text">"You are not lazy. You are depleted. There is a difference."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Rest is not laziness. It's healing."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You cannot pour from an empty cup. Stop trying."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Slow is not behind. Slow is intentional."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Recovery is not a race. It's a return."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You don't have to earn your rest. You are allowed to stop."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Boundaries are not walls. They're how you survive."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"She didn't give up. She chose herself instead."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Saying no to the wrong things makes room for the right things."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Slow down. You are not behind. You are human."</div><div class="quote-mark">✦ ELORA</div></div>
+    <div style="background:var(--dark1);border-radius:16px;padding:24px;border:0.5px solid rgba(201,192,232,0.08);">
+      <p style="font-size:13px;font-weight:600;color:var(--cream);margin-bottom:8px;">Are the digital workbooks part of the app?</p>
+      <p style="font-size:13px;color:var(--muted);line-height:1.7;">The digital workbooks are separate PDF downloads — beautifully designed companions to the app. They're available in the Digital Library section of the app and on this website. No subscription needed to buy them.</p>
     </div>
-  </div>
 
-  <!-- CATEGORY 9 -->
-  <div class="category">
-    <div class="category-title">On Relationships</div>
-    <div class="category-sub">FOR THE LOVE YOU GIVE AND DESERVE</div>
-    <div class="quote-grid">
-      <div class="quote-card"><div class="quote-text">"You deserve love that feels like home. Not love that feels like work."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Pay attention to how someone makes you feel, not just what they say."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The right people will stay. You won't have to beg them to."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are not difficult to love. You were just loved by the wrong people."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Build healthy connections without losing yourself."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Some goodbyes are endings. Others are the beginning of your freedom."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are worthy of a love that is consistent, kind and real."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Set the standard with how you treat yourself."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You teach people how to treat you by what you accept."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"She stopped chasing. She started choosing."</div><div class="quote-mark">✦ ELORA</div></div>
+    <div style="background:var(--dark1);border-radius:16px;padding:24px;border:0.5px solid rgba(201,192,232,0.08);">
+      <p style="font-size:13px;font-weight:600;color:var(--cream);margin-bottom:8px;">Can I cancel my subscription anytime?</p>
+      <p style="font-size:13px;color:var(--muted);line-height:1.7;">Yes — manage or cancel your subscription anytime through your iPhone's Settings → Apple ID → Subscriptions. No hidden fees, no difficult cancellation process.</p>
     </div>
+
   </div>
+</section>
 
-  <!-- CATEGORY 10 -->
-  <div class="category">
-    <div class="category-title">On Hope</div>
-    <div class="category-sub">FOR WHEN YOU NEED TO BELIEVE AGAIN</div>
-    <div class="quote-grid">
-      <div class="quote-card"><div class="quote-text">"Hope is not a destination. It's a direction."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The best is still unfolding."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are not behind. You are building."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Something good is coming. You won't always feel this way."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"This season will not last forever. Hold on."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You are allowed to believe that things will get better. They will."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"The world will still be here tomorrow. And so will your dreams."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"Keep going. You're doing better than you think."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"You have survived 100% of your worst days so far."</div><div class="quote-mark">✦ ELORA</div></div>
-      <div class="quote-card"><div class="quote-text">"She didn't know how it would work out. She just knew it would."</div><div class="quote-mark">✦ ELORA</div></div>
-    </div>
+<!-- FROM ELORA -->
+<section style="padding:60px 80px;background:var(--dark2);border-top:0.5px solid rgba(201,192,232,0.08);">
+  <p style="font-size:10px;color:var(--accent);letter-spacing:2.5px;margin-bottom:16px;">✦ FROM ELORA</p>
+  <h2 style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:32px;font-weight:300;color:var(--cream);margin-bottom:8px;">Words for the ones<br><em>who feel deeply.</em></h2>
+  <p style="font-size:13px;color:var(--muted);margin-bottom:32px;max-width:480px;">Quotes, prompts and reflections — for every season of your journey.</p>
+  <div style="display:flex;flex-direction:column;gap:12px;max-width:480px;">
+    <a href="healing-quotes.html" style="display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.03);border:0.5px solid rgba(201,192,232,0.1);border-radius:14px;padding:16px 20px;color:var(--cream);text-decoration:none;transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='rgba(201,192,232,0.1)'">
+      <div>
+        <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;margin-bottom:3px;">100 Healing Quotes</div>
+        <div style="font-size:11px;color:var(--muted);">For when you need to feel less alone</div>
+      </div>
+      <span style="color:var(--accent);font-size:16px;">→</span>
+    </a>
+    <a href="journal-prompts.html" style="display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.03);border:0.5px solid rgba(201,192,232,0.1);border-radius:14px;padding:16px 20px;color:var(--cream);text-decoration:none;transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='rgba(201,192,232,0.1)'">
+      <div>
+        <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;margin-bottom:3px;">100 Journal Prompts</div>
+        <div style="font-size:11px;color:var(--muted);">For self discovery, healing & growth</div>
+      </div>
+      <span style="color:var(--accent);font-size:16px;">→</span>
+    </a>
+    <a href="how-to-journal.html" style="display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.03);border:0.5px solid rgba(201,192,232,0.1);border-radius:14px;padding:16px 20px;color:var(--cream);text-decoration:none;transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='rgba(201,192,232,0.1)'">
+      <div>
+        <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;margin-bottom:3px;">How to Start Journaling</div>
+        <div style="font-size:11px;color:var(--muted);">A beginner's guide</div>
+      </div>
+      <span style="color:var(--accent);font-size:16px;">→</span>
+    </a>
+    <a href="for-you.html" style="text-align:center;font-size:12px;color:var(--accent);padding:8px;">See all ✦</a>
   </div>
+</section>
 
-</div>
-
-<div class="cta-section">
-  <p style="font-size:10px;letter-spacing:3px;color:var(--accent);margin-bottom:16px;">✦ YOUR PRIVATE SPACE</p>
-  <h2>Write freely.<br><em>Feel deeply. Heal quietly.</em></h2>
-  <p>Elora is a journaling and wellness app for women who want to understand themselves better. Coming soon to the App Store.</p>
-  <a href="index.html#waitlist" class="btn">Get notified at launch ✦</a>
-  <p style="margin-top:20px;font-size:12px;color:var(--muted);">Or explore our <a href="index.html#products" style="color:var(--accent);">healing workbooks</a> — available now.</p>
-</div>
-
+<!-- FOOTER -->
 <footer>
-  <div class="nav-logo">Elora <span>by Rym</span></div>
-  <nav style="display:flex;gap:24px;flex-wrap:wrap;">
-    <a href="index.html" style="font-size:12px;color:var(--muted);">Home</a>
-    <a href="index.html#products" style="font-size:12px;color:var(--muted);">Workbooks</a>
-    <a href="index.html#premium" style="font-size:12px;color:var(--muted);">Premium</a>
-    <a href="privacy.html" style="font-size:12px;color:var(--muted);">Privacy Policy</a>
+  <div class="footer-logo">Elora <span>by Rym</span></div>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#products">Digital Products</a>
+    <a href="#premium">Premium</a>
+    <a href="for-you.html">For You ✦</a>
+    <a href="#about">About</a>
+    <a href="#faq">FAQ</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="mailto:support@elora-app.com">Contact</a>
   </nav>
-  <p>© 2026 Elora by Rym. All rights reserved.</p>
+  <p>© 2026 Elora by Rym. All rights reserved. All content, quotes, and designs are original works.</p>
 </footer>
 
 </body>
