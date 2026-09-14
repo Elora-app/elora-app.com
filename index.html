@@ -166,6 +166,8 @@ footer p{font-size:11px;color:rgba(255,255,255,0.2);}
   #features,#products,#premium,.cta-section,footer{padding-left:24px;padding-right:24px;}
   .features-grid{grid-template-columns:1fr;}
   .premium-features{grid-template-columns:1fr 1fr;}
+  section[style*="padding:80px 80px"] { padding-left:24px !important; padding-right:24px !important; }
+  section[style*="padding:80px 80px"] > div[style*="grid-template-columns:repeat(3"] { grid-template-columns:1fr !important; }
   .products-header{flex-direction:column;}
   .products-sub{text-align:left;}
 }
@@ -276,34 +278,73 @@ footer p{font-size:11px;color:rgba(255,255,255,0.2);}
     <div class="feat-card">
       <div class="feat-icon">✦</div>
       <h3>Journal freely</h3>
-      <p>Write with beautiful themes, photos, and voice notes. Protected by a PIN only you know.</p>
+      <p>Write with beautiful themes and fonts. Protected by a PIN only you know. Your words go nowhere.</p>
     </div>
     <div class="feat-card">
       <div class="feat-icon">✦</div>
-      <h3>Track your mood</h3>
-      <p>Log how you feel each day. Elora reveals your patterns and reflects them back in its own gentle voice.</p>
+      <h3>Mood insights that evolve</h3>
+      <p>Not just a log. Real trend analysis — are things lifting or heavier lately? Day-of-week patterns, streaks, and a personal monthly letter built from your own numbers.</p>
     </div>
     <div class="feat-card">
       <div class="feat-icon">✦</div>
       <h3>Reflect daily</h3>
-      <p>A new question every single day — written to make you think. Watch how your answers change over months.</p>
+      <p>A new question every day — written to make you think. Watch how your answers change over months.</p>
     </div>
     <div class="feat-card">
       <div class="feat-icon">✦</div>
       <h3>Original music</h3>
-      <p>Music created by Elora to set the mood while you write. Something to put on when you need to slow down.</p>
+      <p>11 tracks created for Elora — songs and background sounds to put on when you need to slow down and write.</p>
     </div>
     <div class="feat-card">
       <div class="feat-icon">✦</div>
       <h3>Letters to future you</h3>
-      <p>Write something today. Elora delivers it back to you in 1 month, 3 months, 6 months, or a year.</p>
+      <p>Write something today. Elora delivers it back in 1 month, 3 months, 6 months, or a year — when you're ready to read it.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">✦</div>
+      <h3>Your full mood history</h3>
+      <p>Browse back through any past month or year you've ever logged. Nothing is erased. Nothing is forgotten.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">✦</div>
+      <h3>Animated themes</h3>
+      <p>Themes with subtle background motion — aurora, petals, stars. Or turn animations off entirely if you prefer stillness.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">✦</div>
+      <h3>More themes coming</h3>
+      <p>Velvet Rose, Coffee House, and Winter Ice — each with its own mood, palette, and vibe. Previews live in the app now.</p>
     </div>
     <div class="feat-card">
       <div class="feat-icon">✦</div>
       <h3>Always private</h3>
-      <p>No ads. No data selling. No judgment. Just you and your thoughts, protected by a PIN only you know.</p>
+      <p>No ads. No data selling. No judgment. Full account deletion anytime, right in the app. You're always in control.</p>
     </div>
   </div>
+</section>
+
+<!-- WHY ELORA -->
+<section style="padding:80px 80px;background:var(--cream);">
+  <div class="section-label" style="color:var(--accent);">WHY ELORA</div>
+  <h2 class="section-title" style="color:var(--dark);">Built with care.<br><em>Designed to last.</em></h2>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px;">
+    <div style="padding:28px;background:white;border-radius:20px;border:0.5px solid rgba(106,82,150,0.12);">
+      <div style="font-size:20px;margin-bottom:12px;">✦</div>
+      <h3 style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:var(--dark);margin-bottom:8px;">Nothing is ever lost</h3>
+      <p style="font-size:13px;color:var(--muted);line-height:20px;">Journal entries and letters to your future self are safeguarded even if the app closes unexpectedly mid-write.</p>
+    </div>
+    <div style="padding:28px;background:white;border-radius:20px;border:0.5px solid rgba(106,82,150,0.12);">
+      <div style="font-size:20px;margin-bottom:12px;">✦</div>
+      <h3 style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:var(--dark);margin-bottom:8px;">You control your data</h3>
+      <p style="font-size:13px;color:var(--muted);line-height:20px;">Full account deletion available anytime from inside the app. Your data is yours. We don't use it for advertising or AI.</p>
+    </div>
+    <div style="padding:28px;background:white;border-radius:20px;border:0.5px solid rgba(106,82,150,0.12);">
+      <div style="font-size:20px;margin-bottom:12px;">✦</div>
+      <h3 style="font-family:Georgia,serif;font-style:italic;font-size:16px;color:var(--dark);margin-bottom:8px;">Secure from the start</h3>
+      <p style="font-size:13px;color:var(--muted);line-height:20px;">Email verification on signup. PIN protection on every session. Your private entries are never accessible to anyone else.</p>
+    </div>
+  </div>
+  <p style="font-size:11px;color:var(--muted);margin-top:32px;text-align:center;font-style:italic;">Elora is a journaling and wellness tool — not a substitute for professional medical or psychological care.</p>
 </section>
 
 <!-- DIGITAL PRODUCTS -->
